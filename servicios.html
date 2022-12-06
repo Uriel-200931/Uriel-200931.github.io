@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/views.css">
+</head>
+
+<body >
+    <div id="mySidebar" class="sidebar" >
+        <!--profile image & text-->
+        <div class="profile">
+            <img src="https://i.pinimg.com/originals/52/12/f5/5212f5ab86400f3196381db8e9e28758.jpg"
+                alt="profile_picture">
+            <h3>Lana Roy</h3>
+            <p>Designer</p>
+        </div>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+        <ul class="menu">
+            <li><a href="./home.html"><span class="icono home"> </span> Inicio</a></li>
+            </li>
+            <li><a href="./clientes.html"><span class="icono cliente"> </span> Clientes</a></li>
+            <li><a href="./servicios.html"><span class="icono servicio"> </span>Servicios</a></li>
+            <li><a href="./trabajadores.html"><span class="icono trabajador"> </span>Trabajadores</a></li>
+            <li><a href="./ventas.html"><span class="icono venta"> </span>Ventas</a></li>
+            <li><a href="./index.html"><span class="icono salir"> </span>Salir</a></li>
+        </ul>
+    </div>
+
+
+    <div id="main">
+        <button class="openbtn" id="openbtn" onclick="openNav()">☰ Abrir Menu</button>
+        <h1 class="tituloprincipal"> Servicios</h1>
+        <div class="FormCliente">
+            <form>
+                <input type="text" name="nombre" id="nombre" class="txtdatos" placeholder="Nombre del Servicio">
+                <input type="text" name="costo" id="costo" class="txtdatos" placeholder="$0.000">
+
+                <input type="button" class="boton"  value="Agregar">
+
+            </form>
+        </div>
+
+
+        <div class="FormCliente">
+            <table class="datostabla">
+                <thead>
+                <tr>
+                    <th>Nombre Servicio</th>
+                    <th>Costo</th>
+                    <th>Editar</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+                <tr>
+                    <td>Limpieza completa</td>
+                    <td>df</td>
+                    <td>df</td>
+                    <td>df</td>     
+                </tr>
+                <tr>
+                    <td>Cambio de aceite </td>
+                    <td>df</td>
+                    <td>df</td>
+                    <td>df</td>     
+                </tr>
+                <tr>
+                    <td>Lavado alfombras</td>
+                    <td>df</td>
+                    <td>df</td>
+                    <td>df</td>    
+                </tr>
+                <tr>
+                    <td>Servicio Completo</td>
+                    <td>df</td>
+                    <td>df</td>
+                    <td>df</td>    
+                </tr>
+                <tr>
+                    <td>Lavado llantas</td>
+                    <td>df</td>
+                    <td>df</td>
+                    <td>df</td>    
+                </tr>
+                <tr>
+                    <td>Lavado interior</td>
+                    <td>df</td>
+                    <td>df</td>
+                    <td>df</td>     
+                </tr>
+            </table>
+        </div>
+
+
+    </div>
+
+    
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
